@@ -17,7 +17,7 @@ This app is the back end of an e-commerce site. It functions through the use of 
 Clone the repo to your local machine. Create the database, seed the database, and then run CRUD operations through Insomnia!
 
 ## Usage
-The CRUD operations can be observed via Insomnia! Checkout a walkthrough video [here]()!
+The CRUD operations can be observed via Insomnia! Checkout a walkthrough video [here](https://drive.google.com/file/d/1FBvgjFrqQ5bKuoduP9jieH6th7jLgAoP/view)!
 
 ## Credits
 References used while making this app:

@@ -1,10 +1,19 @@
 const router = require('express').Router();
-const { Category } = require('../../models');
+const { Product, Category, Tag } = require('../../models');
 
 // GET all categories
 router.get('/', async (req, res) => {
   try {
-    const categoryData = await Category.findAll();
+    const categoryData = await Category.findAll({
+      attributes: [
+        'id',
+        'category_name'
+      ],
+      include: [{
+        model: Product,
+        attributes: ['id', 'product_name', "brand_name", 'price', 'stock', 'category_id'],
+      }]
+    });
     res.status(200).json(categoryData);
   } catch (err) {
     res.status(500).json(err);
@@ -12,7 +21,7 @@ router.get('/', async (req, res) => {
 });
 
 // CREATE a category
-router.post('/category', (req, res) => {
+router.post('/', (req, res) => {
     // use sequelize's `create()` method to add a row to the table
     Category.create({
       category_name: req.body.category_name,
@@ -27,7 +36,7 @@ router.post('/category', (req, res) => {
   });
 
 // UPDATE category based on its id
-router.put('/category/:id', (req, res) => {
+router.put('/:id', (req, res) => {
   // calls the update method on the category model
   Category.update(
     {
@@ -49,7 +58,7 @@ router.put('/category/:id', (req, res) => {
 });
 
 // DELETE route for a category with a matching id
-router.delete('/category/:id', (req, res) => {
+router.delete('/:id', (req, res) => {
   // looks for the category based on id given in the request parameters and deletes the instance from the database
   Category.destroy({
     where: {

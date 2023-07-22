@@ -1,8 +1,8 @@
 const router = require('express').Router();
-const { Tag } = require('../../models');
+const { Product, Category, Tag } = require('../../models');
 
 // GET all tags
-router.get('/tag', async (req, res) => {
+router.get('/', async (req, res) => {
   try {
     const tagData = await Tag.findAll({
         attributes: [
@@ -23,7 +23,7 @@ router.get('/tag', async (req, res) => {
 });
 
 // CREATE a tag
-router.post('/tag', (req, res) => {
+router.post('/', (req, res) => {
     // use sequelize's `create()` method to add a row to the table
     Tag.create({
       tag_name: req.body.tag_name,
@@ -38,7 +38,7 @@ router.post('/tag', (req, res) => {
   });
 
 // UPDATE tag based on its id
-router.put('/tag/:id', (req, res) => {
+router.put('/:id', (req, res) => {
     // calls the update method on the tag model
     Tag.update(
       {
@@ -60,7 +60,7 @@ router.put('/tag/:id', (req, res) => {
   });
   
   // DELETE route for a tag with a matching id
-  router.delete('/tag/:id', (req, res) => {
+  router.delete('/:id', (req, res) => {
     // looks for the tag based on id given in the request parameters and deletes the instance from the database
     Tag.destroy({
       where: {
