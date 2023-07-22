@@ -38,7 +38,7 @@ router.post('/tag', (req, res) => {
   });
 
 // UPDATE tag based on its id
-router.put('/product/:id', (req, res) => {
+router.put('/tag/:id', (req, res) => {
     // calls the update method on the tag model
     Tag.update(
       {
