@@ -1,0 +1,129 @@
+[
+    {
+      "product_name": "Suede Matte Lipstick",
+      "brand_name": "NYX",
+      "price": "9.0",
+      "stock": "10",
+      "category_id": "1"
+    },
+    {
+      "product_name": "Fractal Glitter Eye Paint",
+      "brand_name": "about-face",
+      "price": "19.99",
+      "stock": "21",
+      "category_id": "1"
+    },
+    {
+      "product_name": "Space Kitten Exfoliating Peel-Off Mask",
+      "brand_name": "I Dew Care",
+      "price": "24.99",
+      "stock": "15",
+      "category_id": "2"
+    },
+    {
+      "product_name": "Magic Food Dalcom Banana Lip Balm",
+      "brand_name": "TONYMOLY",
+      "price": "10.99",
+      "stock": "33",
+      "category_id": "2"
+    },
+    {
+      "product_name": "Smoothing+ Liquid Pearl Luminescent Serum",
+      "brand_name": "OGX",
+      "price": "11.99",
+      "stock": "4",
+      "category_id": "3"
+    },
+    {
+      "product_name": "SMOOTH Conditioner",
+      "brand_name": "MONDAY",
+      "price": "8.99",
+      "stock": "14",
+      "category_id": "3"
+    },
+    {
+      "product_name": "Rapido Dryer",
+      "brand_name": "BaBylissPRO",
+      "price": "199.99",
+      "stock": "3",
+      "category_id": "4"
+    },
+    {
+      "product_name": "Pro Artist QuietAir Power Dryer",
+      "brand_name": "Hot Tools",
+      "price": "119.99",
+      "stock": "5",
+      "category_id": "4"
+    },
+    {
+      "product_name": "One United Multi-Benefit Treatment Spray",
+      "brand_name": "Redken",
+      "price": "44.99",
+      "stock": "29",
+      "category_id": "5"
+    },
+    {
+      "product_name": "Detox Shampoo",
+      "brand_name": "OUAI",
+      "price": "34.99",
+      "stock": "8",
+      "category_id": "5"
+    },
+    {
+      "product_name": "Uomo Born In Roma Eau de Toilette",
+      "brand_name": "Valentino",
+      "price": "129.99",
+      "stock": "6",
+      "category_id": "6"
+    },
+    {
+      "product_name": "BLEU DE CHANEL Eau de Parfum Spray",
+      "brand_name": "CHANEL",
+      "price": "184.99",
+      "stock": "7",
+      "category_id": "6"
+    },
+    {
+      "product_name": "Poutsicle Hydrating Lip Stain",
+      "brand_name": "FENTY BEAUTY",
+      "price": "29.99",
+      "stock": "11",
+      "category_id": "7"
+    },
+    {
+      "product_name": "Addict Lip Maximizer",
+      "brand_name": "Dior",
+      "price": "40.0",
+      "stock": "19",
+      "category_id": "7"
+    },
+    {
+      "product_name": "Lala Retro Whipped Cream",
+      "brand_name": "Drunk Elephant",
+      "price": "64.99",
+      "stock": "9",
+      "category_id": "8"
+    },
+    {
+      "product_name": "24-7 Moisture Hydrating Day & Night Cream",
+      "brand_name": "Tula",
+      "price": "55.0",
+      "stock": "37",
+      "category_id": "8"
+    },
+     {
+      "product_name": "Ocean Glow Hydrating Sugar Scrub",
+      "brand_name": "Tree Hut",
+      "price": "11.0",
+      "stock": "27",
+      "category_id": "9"
+    },
+    {
+      "product_name": "Coco Cloud After Shave Moisturizer",
+      "brand_name": "Truly",
+      "price": "34.99",
+      "stock": "12",
+      "category_id": "9"
+    }
+  ]
+  
